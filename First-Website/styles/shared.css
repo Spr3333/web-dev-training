@@ -1,0 +1,25 @@
+body {
+  background-color: #183636;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  color: #55bdbd;
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  color: aqua;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: rgb(184, 9, 44);
+}
+
+a:hover {
+  text-decoration: underline;
+}

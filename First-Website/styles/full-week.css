@@ -1,0 +1,79 @@
+header {
+  margin-bottom: 60px;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(13, 231, 243);
+  /* margin: 20px; */
+  margin: 0;
+}
+
+h2 {
+  color: beige;
+  font-family: "Oswald", sans-serif;
+  margin: 0px auto 2px auto;
+  font-size: 25px;
+}
+
+/* Id Selector Type Example */
+/* #goals-description{
+    margin-bottom: 36px;
+    font-size: 20px;
+} */
+
+/* Descendent Combinator Example */
+/* header p{
+    margin-bottom: 36px;
+} */
+
+/* Child Combinator Example */
+#goals-description {
+  margin-bottom: 36px;
+  font-size: 20px;
+}
+
+a {
+  background-color: rgb(13, 231, 243);
+  font-weight: bold;
+  /* padding: 10px; */
+  padding: 4px 45px 4px 45px;
+  /* padding: 12px 48px; */
+  border: 1px solid none;
+  border-radius: 5px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0px;
+}
+
+a:hover {
+  background-color: rgb(43, 120, 120);
+  text-decoration: none;
+  border: 2px solid rgb(184, 9, 44);
+}
+
+ul {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  color: #55bdbd;
+  width: 600px;
+  padding: 0;
+  margin: 35px auto 0 auto;
+}
+
+li {
+  padding: 2px 20px 2px 20px;
+  background-color: rgb(39, 95, 77);
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+ul p {
+  margin: 10px;
+  color: aliceblue;
+}
+
+.highlight-goal {
+  background-color: rgb(52, 126, 103);
+}

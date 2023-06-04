@@ -1,0 +1,18 @@
+#hero{
+    height: 550px;
+    background-image: url("/Travel-Page/Images/Places/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content{
+    background-color: rgba(51, 47, 47, 0.8);
+    width: 800px;
+    box-shadow: 2px 2px 8px rgba(68, 67, 67, 0.8);
+    border-radius: 8px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding: 40px 0px;
+    position: relative;
+    top: 150px;
+}

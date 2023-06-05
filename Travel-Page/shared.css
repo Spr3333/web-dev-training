@@ -7,6 +7,9 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 20px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 ul {
@@ -38,4 +41,14 @@ header li {
 header a {
   text-decoration: none;
   font-size: 20px;
+  color: yellow;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  padding: 12px;
+}
+
+nav a:hover,
+nav a:active {
+  color: black;
+  background-color: yellow;
+  border-radius: 8px;
 }

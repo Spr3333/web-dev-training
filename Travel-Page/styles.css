@@ -1,18 +1,93 @@
-#hero{
-    height: 550px;
-    background-image: url("/Travel-Page/Images/Places/ocean.jpg");
-    background-position: center;
-    background-size: cover;
+#hero {
+  height: 550px;
+  background-image: url("/Travel-Page/Images/Places/ocean.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-#hero-content{
-    background-color: rgba(51, 47, 47, 0.8);
-    width: 800px;
-    box-shadow: 2px 2px 8px rgba(68, 67, 67, 0.8);
-    border-radius: 8px;
-    margin: 0px auto 0px auto;
-    text-align: center;
-    padding: 40px 0px;
-    position: relative;
-    top: 150px;
+#hero-content {
+  background-color: rgba(51, 47, 47, 0.8);
+  width: 800px;
+  box-shadow: 2px 2px 8px rgba(68, 67, 67, 0.8);
+  border-radius: 8px;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  padding: 40px 0px;
+  position: relative;
+  top: 150px;
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+#hero-content p {
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 255, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  border: 2px solid black;
+}
+
+#hero-content a:hover,
+#hero-content a:active {
+  background-color: rgb(235, 235, 13);
+}
+
+#highlights h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(98, 97, 97);
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+
+#destination {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destination {
+  margin: 0px 20px;
+}
+
+.destination p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 5px;
+  color: rgb(122, 118, 118);
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
